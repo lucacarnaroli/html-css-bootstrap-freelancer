@@ -1,6 +1,5 @@
 .navbar {
   background-color: pink;
-
 }
 .col_navbar {
   background-color: #fff;
@@ -11,7 +10,6 @@
 }
 .col_navbar.right{
   background-color: blue;
-
 }
 .header {
   background-color: #1BBC9C;
@@ -40,8 +38,9 @@
   width: 100%;
   display: flex;
 } */
-.widht_30 {
-  width: 30%;
+.width_30 {
+  width: 50%;
+  margin: 20px;
 }
 .box_portfolio {
   background-color: rgb(181, 223, 235);
