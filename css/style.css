@@ -39,10 +39,47 @@
   display: flex;
 } */
 .width_30 {
-  width: 60%;
+  width: 70%;
   margin: 50px;
   background-color: red;
 }
 .box_portfolio {
-  margin-bottom: 15px;
+  background-color: pink;
+}
+.sezione_about {
+  background-color: grey;
+  height: 450px;
+}
+/* sezione about */
+.title_section {
+  text-align: center;
+  margin-top: 50px;
+}
+.box_testo {
+  margin-top: 90px;
+}
+.width_20 {
+width: 50%;
+}
+.buttom_download {
+  margin-left: 520px;
+  margin-top: 40px;
+  background-color: pink;
+  width: 100px;
+  border: 2px solid white;
+}
+.background_contact {
+  background-color: red;
+  height: 500px;;
+}
+.footer_box {
+  background-color: pink;
+}
+.footer_box .col_footer {
+  width: 100%;
+  margin-left: 200px;
+}
+.footer_bar {
+  background-color: yellow;
+  height: 50px;
 }
