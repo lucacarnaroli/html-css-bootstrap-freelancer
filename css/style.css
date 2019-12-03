@@ -39,15 +39,10 @@
   display: flex;
 } */
 .width_30 {
-  width: 50%;
-  margin: 20px;
+  width: 60%;
+  margin: 50px;
+  background-color: red;
 }
 .box_portfolio {
-  background-color: rgb(181, 223, 235);
   margin-bottom: 15px;
 }
-.container_box {
-  background-color: pink;
-  height: 300px;
-}
-.container_box
