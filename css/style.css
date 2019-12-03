@@ -1,0 +1,32 @@
+.navbar {
+  background-color: pink;
+}
+.col_navbar {
+  background-color: #2C3E50;
+}
+.header {
+  background-color: #1BBC9C;
+  height: 300px;
+}
+.portfolio {
+  text-align: center;
+}
+.linea-s {
+  width: 20%;
+  float: left;
+  background-color: blue;
+  height: 3px;
+  margin-left: 350px;
+}
+.linea-r {
+  width: 20%;
+  float: right;
+  background-color: blue;
+  height: 3px;
+  margin-right: 350px;
+}
+.box_portfolio {
+  background-color: red;
+  margin-bottom: 5px;
+  padding: 19px;
+}
