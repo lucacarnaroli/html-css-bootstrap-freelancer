@@ -1,8 +1,17 @@
 .navbar {
   background-color: pink;
+
 }
 .col_navbar {
-  background-color: #2C3E50;
+  background-color: #fff;
+  height: 70px;
+}
+.col_navbar.left{
+  background-color: red;
+}
+.col_navbar.right{
+  background-color: blue;
+
 }
 .header {
   background-color: #1BBC9C;
@@ -10,6 +19,7 @@
 }
 .portfolio {
   text-align: center;
+  background-color: brown;
 }
 .linea-s {
   width: 20%;
@@ -18,15 +28,27 @@
   height: 3px;
   margin-left: 350px;
 }
-.linea-r {
+.linea-d {
   width: 20%;
   float: right;
   background-color: blue;
   height: 3px;
   margin-right: 350px;
 }
-.box_portfolio {
-  background-color: red;
-  margin-bottom: 5px;
-  padding: 19px;
+/* .linea_stella {
+  background-color: pink;
+  width: 100%;
+  display: flex;
+} */
+.widht_30 {
+  width: 30%;
 }
+.box_portfolio {
+  background-color: rgb(181, 223, 235);
+  margin-bottom: 15px;
+}
+.container_box {
+  background-color: pink;
+  height: 300px;
+}
+.container_box
