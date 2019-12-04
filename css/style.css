@@ -1,3 +1,5 @@
+/* header */
+
 /* header_top */
 .header_top {
   width: 100%;
@@ -6,9 +8,6 @@
 }
 .col_navbar {
   height: 100px;
-}
-.col_navbar.left {
-  background-color: #2C3E50;
 }
 .col_navbar.left h4 {
   line-height: 70px;
@@ -20,25 +19,29 @@
 }
 .list_nav li {
   display: inline-block;
-  line-height: 90px;
-  width: 100px;
+  margin-left: 60px;
+  font-weight: bold;
   font-size: 20px;
   color: #fff;
 }
 .list_nav li:hover {
   color: #1BBA9B;
 }
+.btn_green {
+  font-size: 15px;
+  color: #fff;
+}
+.buttom_menu {
+  display: inline-block;
+  background-color: #1BBC9C;
+  width:80px;
+  margin-top: 30px;
+  border-radius: 6px;
+}
 /* /header_top */
 
 /* jumbo */
-.btn_green {
-  background-color: red;
-  line-height: 90px;
-  font-size: 15px;
-  color: #fff;
-  width:80px;
-  height: 30px;
-}
+
 .jumbo {
   background-color: #1BBC9C;
   height: 650px;
@@ -77,10 +80,16 @@
 }
 .text_paragrafo {
   color: #fff;
-  font-size: 18px;
+  font-size: 22px;
+  font-weight: bold;
 }
 /* /jumbo */
 
+/* /header */
+
+ /* main */
+
+ /* sezione_portfolio */
 .width_30 {
   width: 100%;
   margin-bottom: 50px;
