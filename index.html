@@ -6,28 +6,50 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
     <title>Bootstrap</title>
   </head>
   <body>
     <header>
-      <div class="container_fluid">
-        <div class="row">
-         <div class="navbar">
-          <div class="container">
-           <div class="col-lg-8 col-md-8 col_navbar left">
-            <h4>Lorem ipsum dolor sit amet</h4>
+
+      <div class="header_top">
+        <div class="container">
+         <div class="row">
+           <div class="col-xs-6  col_navbar left">
+            <h4>START BOOTSTRAP</h4>
            </div>
-           <div class="col-lg-4 col-lg-4 col_navbar right">
-            <h4>Lorem ipsum dolor sit amet, consectetur </h4>
+           <div class="col-xs-6 text-right">
+             <a href="#" class="btn btn_green hidden-lg ">Menu <span class="glyphicon glyphicon-menu-hamburger"></span> </a>
+             <ul class="list_nav visible-lg">
+               <li>Portfolio</li>
+               <li>Contact</li>
+               <li>About</li>
+             </ul>
            </div>
           </div>
          </div>
-           <div class="col-lg-12 header">
-            <img src="" alt="">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-           </div>
-        </div>
-      </div>
+         </div>
+
+
+           <div class="jumbo">
+            <img  class="avatar" src="img/avatar.svg" alt="avatar">
+            <h1 class="text-center text_avatar">START BOOTSTRAP</h1>
+            <div class="row">
+              <div class="col-xs-5">
+                <hr class="linea-s">
+              </div>
+              <div class="col-xs-2">
+                <i class="fas fa-star icon_star"></i>
+              </div>
+              <div class="col-xs-5">
+                <hr class="linea-r">
+              </div>
+            </div>
+            </div>
+
+
+
+
     </header>
 
 
@@ -36,7 +58,6 @@
     <!-- prima sezione -->
      <section class="sezione_portfolio">
       <div class="container">
-
        <div class="portfolio">
         <h1>PORTFOLIO</h1>
        </div>
@@ -48,32 +69,32 @@
        <div class="linea-d"></div>
      </div> -->
        <div class="row">
-        <div class="col-lg-4 col-md-6 col-xs-12 box_portfolio">
+        <div class="col-xs-12 col-md-6 col-lg-4 box_portfolio">
          <div class="width_30">
            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
          </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-xs-12 box_portfolio">
+        <div class="col-xs-12 col-md-6 col-lg-4 box_portfolio">
          <div class="width_30">
            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
          </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-xs-12 box_portfolio">
+        <div class="col-xs-12 col-md-6 col-lg-4 box_portfolio">
          <div class="width_30">
            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
          </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-xs-12 box_portfolio">
+        <div class="col-xs-12 col-md-6 col-lg-4 box_portfolio">
          <div class="width_30">
            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
          </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-xs-12 box_portfolio">
+        <div class="col-xs-12 col-md-6 col-lg-4 box_portfolio">
          <div class="width_30">
            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
          </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-xs-12 box_portfolio">
+        <div class="col-xs-12 col-md-6 col-lg-4 box_portfolio">
          <div class="width_30">
            Lorem ipsum dolor sit amet, consectetur adi
            pisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -86,10 +107,10 @@
       <div class="container about_container">
         <h2 class="title_section">ABOUT</h2>
        <div class="row box_testo">
-        <div class="col-lg-6 width_20 ">
+        <div class="col-xs-6 width_20 ">
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
         </div>
-        <div class="col-lg-6 width_20">
+        <div class="col-xs-6 width_20">
          <p>laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
        </div>
@@ -113,7 +134,7 @@
     </main>
 
     <footer>
-     <div class="container_fluid">
+     <div class="container-fluid">
       <div class="row footer_box">
        <div class="col-lg-3">
         <div class="col_footer">
