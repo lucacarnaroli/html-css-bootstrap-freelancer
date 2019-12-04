@@ -74,7 +74,7 @@
   margin-left: 0;
 }
 .icon_star {
-  font-size: 20px;
+  font-size: 30px;
   color: #fff;
 }
 .text_paragrafo {
@@ -90,33 +90,34 @@
 
  /* sezione_portfolio */
 .color_linee_blu_sx {
-  background-color: red;
+  background-color: #2C3E50;
   height: 2px;
   width: 30%;
   margin-right: 0;
 }
 .color_linee_blu_dx {
-  background-color: red;
+  background-color: #2C3E50;
   height: 2px;
   width: 30%;
   margin-left: 0;
 }
 .icon_star_blu {
-
+  font-size: 30px;
+  color: #2C3E50;
 }
 .width_30 {
-  width: 100%;
   margin-bottom: 50px;
-  background-color: red;
 }
-.box_portfolio {
-  background-color: pink;
+.width_30 img {
+  width: 100%;
 }
+
+/* sezione about */
+
 .sezione_about {
   background-color: grey;
   height: 450px;
 }
-/* sezione about */
 .title_section {
   text-align: center;
   margin-top: 50px;
