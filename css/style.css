@@ -1,4 +1,4 @@
-/* header */
+/* header_top */
 .header_top {
   width: 100%;
   height: 100px;
@@ -28,15 +28,9 @@
 .list_nav li:hover {
   color: #1BBA9B;
 }
-.avatar {
-  width: 20%;
-  margin-left: 40%;
-}
-.text_avatar {
-  font-size: 60px;
-  font-weight: bold;
-  color: #fff;
-}
+/* /header_top */
+
+/* jumbo */
 .btn_green {
   background-color: red;
   line-height: 90px;
@@ -50,18 +44,27 @@
   height: 650px;
   width: 100%;
 }
-/* /header */
-.portfolio {
-  text-align: center;
-
+.text_avatar {
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff;
 }
-.linea-s {
+.jumbo_box {
+  width: 90%;
+  margin:auto;
+}
+.img_avatar {
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 60px;
+}
+.linea-hr_sx {
   width: 30%;
   background-color: #fff;
   height: 3px;
   margin-right: 0;
 }
-.linea-r {
+.linea-hr_dx {
   width: 30%;
   background-color: #fff;
   height: 3px;
@@ -72,6 +75,12 @@
   font-size: 20px;
   color: #fff;
 }
+.text_paragrafo {
+  color: #fff;
+  font-size: 18px;
+}
+/* /jumbo */
+
 .width_30 {
   width: 100%;
   margin-bottom: 50px;
@@ -93,7 +102,7 @@
   margin-top: 90px;
 }
 .width_20 {
-width: 50%;
+  width: 50%;
 }
 .buttom_download {
   margin-left: 520px;
